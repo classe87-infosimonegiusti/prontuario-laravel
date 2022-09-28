@@ -30,3 +30,10 @@ npm install`
 
 ### Lista di tutte le rotte
 `php artisan route:list`
+
+### Creazione di un nuovo controller
+`php artisan make:controller NomeController`
+
+### Creazione di un nuovo model
+`php artisan make:model NomeModello`
+
