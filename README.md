@@ -1,13 +1,32 @@
-# prontuario-laravel
+# Prontuario laravel
 
-##creazione di un nuovo progetto
-composer create-project --prefer-dist laravel/laravel:^7.0 nome-progetto
+## Avvio di un progetto
 
-##lista di tutte le funzioni di artisan
-php artisan list
+### Creazione di un nuovo progetto da zero
+`composer create-project --prefer-dist laravel/laravel:^7.0 nome-progetto
+npm install`
 
-##creazione della chiave di crittografia
-php artisan key:generate
+### Clone di un progetto da github
+`dopo aver fatto il clone...`
 
-##lista di tutte le rotte
-php artisan route:list
+`composer install`
+
+`npm install`
+
+`copia del file .env.example su .env`
+
+`personalizzazione del file .env`
+
+`php artisan key:generate`
+
+
+## Comandi Artisan
+
+### Lista di tutte le funzioni di artisan
+`php artisan list`
+
+### Creazione della chiave di crittografia
+`php artisan key:generate`
+
+### Lista di tutte le rotte
+`php artisan route:list`
