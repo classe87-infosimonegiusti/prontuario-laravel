@@ -3,8 +3,9 @@
 ## Avvio di un progetto
 
 ### Creazione di un nuovo progetto da zero
-`composer create-project --prefer-dist laravel/laravel:^7.0 nome-progetto
-npm install`
+`composer create-project --prefer-dist laravel/laravel:^7.0 nome-progetto`
+`composer install`
+`npm install`
 
 ### Clone di un progetto da github
 `dopo aver fatto il clone...`
