@@ -22,6 +22,9 @@
 
 `php artisan key:generate`
 
+`php artisan db:seed`
+
+`php artisan migrate`
 
 ## Comandi Artisan
 
@@ -34,9 +37,29 @@
 ### Lista di tutte le rotte
 `php artisan route:list`
 
-### Creazione di un nuovo controller
-`php artisan make:controller NomeController`
-
 ### Creazione di un nuovo model
 `php artisan make:model NomeModello`
 
+### Creazione di un nuovo controller
+`php artisan make:controller NomeController`
+
+### Creazione di un nuova migration (creazione tabella)
+`php artisan make:migration create_xxx_table`
+
+### Creazione di un nuova migration (aggiornamento tabella)
+`php artisan make:migration update_xxx_table --table=xxx`
+
+### Lancio migrazioni
+`php artisan migrate`
+
+### Annullo ultima migrazione
+`php artisan migrate:rollback`
+
+### Creazione Seeder
+`php artisan make:seeder NomeSeeder`
+
+### Lancio Seeder Specifico
+`php artisan db:seed --class=NomeSeeder` 
+
+### Lancio Seeder Base
+`php artisan db:seed`
