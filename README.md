@@ -16,15 +16,17 @@
 
 `npm install`
 
+`crezione del DB con phpmyadmin`
+
 `copia del file .env.example su .env`
 
 `personalizzazione del file .env`
 
 `php artisan key:generate`
 
-`php artisan db:seed`
-
 `php artisan migrate`
+
+`php artisan db:seed`
 
 ## Comandi Artisan
 
