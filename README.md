@@ -42,8 +42,14 @@
 ### Creazione di un nuovo model
 `php artisan make:model NomeModello`
 
+### Creazione di un nuovo model e relativa migration
+`php artisan make:model NomeModello -m`
+
 ### Creazione di un nuovo controller
 `php artisan make:controller NomeController`
+
+### Creazione di un nuovo controller (per resource controller)
+`php artisan make:controller NomeController -r`
 
 ### Creazione di un nuova migration (creazione tabella)
 `php artisan make:migration create_xxx_table`
@@ -60,8 +66,10 @@
 ### Creazione Seeder
 `php artisan make:seeder NomeSeeder`
 
-### Lancio Seeder Specifico
+### Esecuzione di tutti i Seeder
+`php artisan db:seed`
+
+### Esecuzione Seeder Specifico
 `php artisan db:seed --class=NomeSeeder` 
 
-### Lancio Seeder Base
-`php artisan db:seed`
+
