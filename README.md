@@ -28,6 +28,11 @@
 
 `php artisan db:seed`
 
+## Installazione Faker
+`composer remove fzaninotto/faker`
+
+`composer require fakerphp/faker`
+
 ## Comandi Artisan
 
 ### Lista di tutte le funzioni di artisan
