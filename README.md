@@ -3,11 +3,14 @@
 ## Avvio di un progetto
 
 ### Creazione di un nuovo progetto da zero
-`composer create-project --prefer-dist laravel/laravel:^7.0 nome-progetto`
+`composer create-project --prefer-dist laravel/laravel NOME-PROGETTO "9.*"`
 
-`composer install`
+`composer require pacificdev/laravel_9_preset`
+
+`php artisan preset:ui bootstrap`
 
 `npm install`
+
 
 ### Clone di un progetto da github
 `dopo aver fatto il clone...`
@@ -26,12 +29,17 @@
 
 `php artisan migrate`
 
-`php artisan db:seed`
+`php artisan db:seed --class=NOME_CLASSE`
 
-## Installazione Faker
-`composer remove fzaninotto/faker`
+### Avvio di un progetto
 
-`composer require fakerphp/faker`
+`php artisan serve`
+
+## Avvio di Vite in modalità di sviluppo
+`npm run dev`
+
+## Compilazione degli assets per la produzione
+`npm run dist`
 
 ## Comandi Artisan
 
